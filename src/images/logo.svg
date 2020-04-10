@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="39" viewBox="0 0 200 39">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 21px;
+        text-anchor: middle;
+        fill: #a61b3b;
+        font-family: Roboto;
+      }
+
+      .cls-2 {
+        fill: #18358b;
+      }
+    </style>
+  </defs>
+  <text id="Daventertainment" class="cls-1" transform="translate(99.516 25) scale(1.143 1)"><tspan x="0">Dav<tspan class="cls-2">entertainment</tspan></tspan></text>
+</svg>
