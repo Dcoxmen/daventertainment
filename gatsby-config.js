@@ -10,8 +10,7 @@ module.exports = {
     title: "Daventertainment Inc",
     author: "D.Cox",
   },
-  plugins: ["gatsby-source-contentful",
-
+  plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-styled-components",
     {
