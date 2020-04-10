@@ -10,14 +10,8 @@ module.exports = {
     title: "Daventertainment Inc",
     author: "D.Cox",
   },
-  plugins: [
-    {
-      resolve: "gatsby-source-contentful",
-      options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
-      }
-    },
+  plugins: ["gatsby-source-contentful",
+
     "gatsby-plugin-sass",
     "gatsby-plugin-styled-components",
     {
