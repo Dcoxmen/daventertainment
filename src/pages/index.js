@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Layout from "../components/Layout"
 import StyledHero from "../components/StyledHero"
 import Banner from "../components/Banner"
@@ -14,9 +14,17 @@ export default ({ data }) => (
         title="Full-Stack with Style"
         info="Build your audience with rich and interactive experiences. Combine programming, video and sound with accurate and eye catching database displays to enhance engagement, improve performance or solve a problem. Experienced full-stack web engineer. Coding to contribute, create, and progress."
       >
-        <Link to="/portfolio" className="btn-white">
+        <AniLink
+          cover
+          to="/portfolio"
+          direction="right"
+          bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
+                  center / cover   /* position / size */
+                  "
+          className="btn-white"
+        >
           View Portfolio
-        </Link>
+        </AniLink>
       </Banner>
     </StyledHero>
     <About />
