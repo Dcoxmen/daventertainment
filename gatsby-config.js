@@ -8,34 +8,20 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Daventertainment Inc",
+    description: "Portfolio site show casing work and services for daventertainment inc.",
     author: "D.Cox",
   },
   plugins: [
-
-    "gatsby-plugin-sass",
-    "gatsby-plugin-styled-components",
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "src",
-        path: `${__dirname}/src/`
+        name: "images",
+        path: `${__dirname}/src/images/`
       }
     },
+    "gatsby-transformer-sharp", 
     "gatsby-plugin-sharp",
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          "gatsby-remark-relative-images",
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 750,
-              linkImagesToOriginal: false
-            }
-          },
-        ],
-      },
-    },
+    "gatsby-plugin-sass",
+    "gatsby-plugin-styled-components",
   ],
 }
