@@ -10,15 +10,7 @@ const Footer = () => {
       <div className={styles.links}>
         {links.map((item, index) => {
           return (
-            <AniLink
-              cover
-              key={index}
-              to={item.path}
-              direction="right"
-              bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
-            center / cover   /* position / size */
-            "
-            >
+            <AniLink fade key={index} to={item.path}>
               {item.text}
             </AniLink>
           )

@@ -29,7 +29,8 @@ label {
   background-color: var(--primaryColor);
   border-color: var(--primaryColor);
   text-transform: uppercase;
-  color: var(--mainBlack);
+  text-align: center;
+  color: var(--mainWhite);
   transition: var(--mainTransition);
   cursor: pointer;
 }
@@ -37,4 +38,8 @@ label {
   background: var(--darkGrey);
   color: var(--mainWhite);
   border-color: var(--darkGrey);
+}
+.response {
+  text-align: center;
+  font-weight: bold;
 }

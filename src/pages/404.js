@@ -9,15 +9,7 @@ export default function error() {
     <Layout>
       <header className={styles.error}>
         <Banner title="oops selected page does not exist">
-          <AniLink
-            cover
-            to="/"
-            direction="right"
-            bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
-                  center / cover   /* position / size */
-                  "
-            className="btn-white"
-          >
+          <AniLink fade to="/" className="btn-white">
             back to home page
           </AniLink>
         </Banner>

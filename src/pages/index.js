@@ -14,15 +14,7 @@ export default ({ data }) => (
         title="Full-Stack with Style"
         info="Build your audience with rich and interactive experiences. Combine programming, video and sound with accurate and eye catching database displays to enhance engagement, improve performance or solve a problem. Experienced full-stack web engineer. Coding to contribute, create, and progress."
       >
-        <AniLink
-          cover
-          to="/portfolio"
-          direction="right"
-          bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
-                  center / cover   /* position / size */
-                  "
-          className="btn-white"
-        >
+        <AniLink fade to="/portfolio" className="btn-white">
           View Portfolio
         </AniLink>
       </Banner>
