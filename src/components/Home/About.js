@@ -33,7 +33,7 @@ const About = () => {
         <article className={styles.aboutInfo}>
           <h4>Make the Difference</h4>
           <p>
-            We architect, design, build and stylize rich user experiences
+            We design, architect, build and stylize rich user experiences
             connected to robust modern frameworks and powerful diverse backend
             solutions. Optimize your brand, software and results.
           </p>
