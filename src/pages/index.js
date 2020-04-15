@@ -6,6 +6,8 @@ import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import { graphql } from "gatsby"
+import FeaturedProjects from "../components/Home/FeaturedProjects"
+
 export default ({ data }) => (
   <Layout>
     <StyledHero home="true" img={data.defaultImage.childImageSharp.fluid}>
@@ -20,6 +22,7 @@ export default ({ data }) => (
     </StyledHero>
     <About />
     <Services />
+    <FeaturedProjects />
   </Layout>
 )
 export const query = graphql`
