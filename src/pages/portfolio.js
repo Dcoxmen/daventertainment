@@ -8,9 +8,6 @@ const Portfolio = ({ data }) => {
   return (
     <Layout>
       <StyledHero img={data.defaultImage.childImageSharp.fluid} />
-      <h1>We love what we do</h1>
-      <p>Engineering for the web with solutions in mind</p>
-      <p>Need a developer?</p>
       <Projects />
     </Layout>
   )
