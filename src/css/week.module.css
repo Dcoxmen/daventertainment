@@ -1,0 +1,27 @@
+.week {
+  margin: 2rem 0;
+}
+.week h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.btn svg {
+  font-size: 1.5rem;
+  color: var(--primaryColor);
+}
+.week p {
+  line-height: 2;
+  transition: var(--mainTransition);
+}
+@media screen and (min-width: 992px) {
+  .week h4 {
+    width: 400px;
+  }
+}

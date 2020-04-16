@@ -48,6 +48,7 @@ function Contact() {
               type="text"
               name="name"
               id="name"
+              required
               className={styles.formControl}
               placeholder="john smith"
             />

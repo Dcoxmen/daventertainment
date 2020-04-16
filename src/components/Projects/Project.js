@@ -28,7 +28,7 @@ const Project = ({ project }) => {
             {type}
           </h4>
           <div className={styles.details}>
-            <h6>{daysToComplete} days</h6>
+            <h6>{daysToComplete} weeks</h6>
             <h6>${cost} Cost</h6>
           </div>
         </div>

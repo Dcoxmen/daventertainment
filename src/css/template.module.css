@@ -31,8 +31,8 @@
   text-transform: capitalize;
 }
 .icon {
-  color: var(--primaryColor);
-  fill: white;
+  color: var(--mainWhite);
+  fill: var(--primaryColor);
   font-size: 1.4rem;
   margin-right: 0.5rem;
 }
@@ -45,7 +45,7 @@
 .template h2 {
   margin: 2rem 0;
 }
-.journey {
+.timeline {
   margin: 3rem 0;
 }
 @media screen and (min-width: 992px) {
