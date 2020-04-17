@@ -15,7 +15,7 @@ const getProjects = graphql`
           daysToComplete
           images {
             fluid {
-              ...GatsbyContentfulFluid_tracedSVG
+              ...GatsbyContentfulFluid
             }
           }
         }
