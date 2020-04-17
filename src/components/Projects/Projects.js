@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 const getProjects = graphql`
   query {
-    projects: allContentfulProject {
+    projects: allContentfulProject(sort: { fields: updatedAt, order: DESC }) {
       edges {
         node {
           name
