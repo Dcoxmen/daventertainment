@@ -6,18 +6,18 @@ export default [
     icon: <FaEye />,
     title: "conceptual design",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "Contemporary UX/UI design and quality front end development using the latest frameworks. ",
   },
   {
     icon: <FaCog />,
     title: "collaberative build",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "We develop and build with the client every step of the way. Ensuring the app you really want delivered on time. ",
   },
   {
     icon: <FaGlobe />,
     title: "exceptional results",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "Attention to detail, debugging, testing and deployment to get it just right. ",
   },
 ]
