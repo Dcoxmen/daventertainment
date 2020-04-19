@@ -7,9 +7,14 @@ import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import { graphql } from "gatsby"
 import FeaturedProjects from "../components/Home/FeaturedProjects"
+import SEO from "../components/SEO"
 
 export default ({ data }) => (
   <Layout>
+    <SEO
+      title="Home"
+      description="Welcome to Daventertainment inc  home page. The best in all things web development. Websites, mobile apps, progressive web apps, corporate software and e-commerce. Let's make the difference"
+    />
     <StyledHero home="true" img={data.defaultImage.childImageSharp.fluid}>
       <Banner
         title="Full-Stack with Style"

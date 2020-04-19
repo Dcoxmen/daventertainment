@@ -3,10 +3,12 @@ import Layout from "../components/Layout.js"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import BlogList from "../components/Blog/BlogList"
+import SEO from "../components/SEO"
 
 const BlogPage = ({ data }) => {
   return (
     <Layout>
+      <SEO title="Blog" description="Blog page details" />
       <StyledHero img={data.blogImage.childImageSharp.fluid} />
       <BlogList />
     </Layout>

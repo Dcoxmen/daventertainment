@@ -7,6 +7,7 @@ import Img from "gatsby-image"
 import { FaMoneyBillWave, FaAtom } from "react-icons/fa"
 import Week from "../components/SingleProject/Week"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import SEO from "../components/SEO"
 
 const Template = ({ data }) => {
   const {
@@ -24,6 +25,7 @@ const Template = ({ data }) => {
 
   return (
     <Layout>
+      <SEO title={name} />
       <StyledHero img={mainImage.fluid} />
       <section className={styles.template}>
         <div className={styles.center}>
