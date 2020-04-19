@@ -10,11 +10,15 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Daventertainment Inc",
-    description: "Portfolio site show casing work and services for daventertainment inc.",
-    author: "D.Cox",
+    description: "Web developer for over 15 years Full stack engineering, digital marketing, software development and more. Located in the Tustin area of Orange County, Ca. Virtually available world wide.",
+    author: "@daventertainmentdj",
+    facebookUsername: "@daventertainmentdj",
+    image: "/daventertainment.png",
+    siteUrl: "https://daventertainment.com",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -29,6 +33,14 @@ module.exports = {
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://daventertainment.com",
+        sitemap: "https://daventertainment.com/sitemap.xml",
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
     },
     "gatsby-transformer-sharp", 
     "gatsby-plugin-sharp",
