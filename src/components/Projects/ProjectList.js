@@ -19,7 +19,7 @@ export default class ProjectList extends Component {
   render() {
     return (
       <section className={styles.projects}>
-        <Title title="our" subtitle="projects" />
+        <Title title="latest" subtitle="projects" />
         <div className={styles.center}>
           {this.state.sortedProjects.map(({ node }) => {
             return <Project key={node.contentful_id} project={node} />

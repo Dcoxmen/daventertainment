@@ -18,7 +18,8 @@ export default ({ data }) => (
     <StyledHero home="true" img={data.defaultImage.childImageSharp.fluid}>
       <Banner
         title="Full stack with Style"
-        info="Welcome to Daventertainment. My name is David Cox. I enjoy the creativity and challenges involved in the process of creating rich user experiences and connecting modern frameworks to robust backend solutions.
+        info="Welcome to Daventertainment. My name is David Cox. I enjoy the creativity and challenges involved in the process of creating rich user experiences and connecting modern frameworks to robust backend solutions. Specializing in JAM,
+        MERN, and MAMP stack development.
         This site is a showcase of my latest work and interests. Coding to contribute, create, and progress. DAV
          "
       >

@@ -38,14 +38,14 @@ const About = () => {
             out client web platforms with a passion for the entertainment
             industry. Known for deep programming skills as well as reputation
             for mentoring teams to success. Thrive in challenging environments
-            requiring adaptability and change management
+            requiring adaptability and change management. A web based creator
+            with enterprise level experience.
           </p>
           <p>
-            I am a full stack engineer by day and party yacht DJ at night. A web
-            based creator with enterprise level experience. Specializing in JAM,
-            MERN, and MAMP stack solutions. My other passions are fatherhood,
-            music composition, video production, and spinning tunes on a harbour
-            cruise. I am fortunate to do what I love.
+            On the weekends I DJ for a large harbour cruise company in Newport
+            Beach, Ca. Addition passions are fatherhood, music composition,
+            video production, and spinning tunes on a yacht. I am fortunate to
+            do what I love.
           </p>
           <p>
             <a
