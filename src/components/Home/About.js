@@ -32,19 +32,20 @@ const About = () => {
         </article>
         <article className={styles.aboutInfo}>
           <h4>Make the Difference</h4>
+
           <p>
-            I architect, design, and build rich user experiences connected to
-            modern frameworks and robust backend solutions. Optimizing your
-            brand, apps and software.
+            Creative front-end web developer with 12+ years’ experience building
+            out client web platforms with a passion for the entertainment
+            industry. Known for deep programming skills as well as reputation
+            for mentoring teams to success. Thrive in challenging environments
+            requiring adaptability and change management
           </p>
           <p>
-            Experience with the following programming languages and
-            technologies. NodeJS and PHP on the server side. Front end tools
-            include HTML, CSS, Javascript and React. I have used MYSQL and
-            POSTGRES relational databases plus MongoDB and Firebase
-            non-relational DBs. Other tech include Restful API's, GraphQL, SEO,
-            and Adobe creative suite. Worked with startups, small business, and
-            enterprise corporation team
+            I am a full stack engineer by day and party yacht DJ at night. A web
+            based creator with enterprise level experience. Specializing in JAM,
+            MERN, and MAMP stack solutions. My other passions are fatherhood,
+            music composition, video production, and spinning tunes on a harbour
+            cruise. I am fortunate to do what I love.
           </p>
           <p>
             <a

@@ -4,20 +4,20 @@ import { FaEye, FaCog, FaGlobe } from "react-icons/fa"
 export default [
   {
     icon: <FaEye />,
-    title: "conceptual design",
+    title: "front end",
     text:
-      "Contemporary UX/UI design and quality front end development using the latest frameworks. ",
+      "Contemporary UX/UI design and quality front end development using HTML, CSS, and Javascript along with the latest frameworks like ReactJS and VueJS. ",
   },
   {
     icon: <FaCog />,
-    title: "collaborative build",
+    title: "back end",
     text:
-      "We develop and build with the client every step of the way. Ensuring the app you really want delivered on time. ",
+      "Architecture and construction of API's, relational and non-relational databases specific to providing solutions. Tools include NodeJS, PHP, MySQL, POSTGRES, and Firebase.",
   },
   {
     icon: <FaGlobe />,
-    title: "exceptional results",
+    title: "leadership qualities",
     text:
-      "Attention to detail, debugging, testing and deployment to get it just right. ",
+      "Enjoy mentoring and teaching others the craft of programming. I currently apply this passion as a teaching assistant for UC Irvine full stack coding bootcamp.",
   },
 ]

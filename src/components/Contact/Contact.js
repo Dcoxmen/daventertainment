@@ -41,6 +41,10 @@ function Contact() {
     <section className={styles.contact}>
       <Title title="contact" subtitle="us" />
       <div className={styles.center}>
+        <p>
+          Contact me by filling out the form below. I will get back to you asap.
+          Looking forward to hearing from you.
+        </p>
         <form onSubmit={handleOnSubmit}>
           <div>
             <label htmlFor="name">Name:</label>

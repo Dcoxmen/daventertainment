@@ -6,7 +6,7 @@ const Title = ({ title, subtitle, className }) => {
     <div className={className}>
       <h4>
         <span className="title">{title}</span>
-        <span>{subtitle}</span>
+        <span className="subtitle">{subtitle}</span>
       </h4>
     </div>
   )
@@ -21,6 +21,9 @@ h4{
  
 }
 .title{
+  color: var(--primaryColor);
+}
+.subtitle{
   color:#ae0e15;
 }
 span{
