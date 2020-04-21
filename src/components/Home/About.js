@@ -20,7 +20,7 @@ const About = () => {
   const { aboutImage } = useStaticQuery(getAboutPic)
   return (
     <section className={styles.about}>
-      <Title title="about" subtitle="us" />
+      <Title title="about" subtitle="dav" />
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
@@ -33,19 +33,27 @@ const About = () => {
         <article className={styles.aboutInfo}>
           <h4>Make the Difference</h4>
           <p>
-            We design, architect, build and stylize rich user experiences
-            connected to robust modern frameworks and powerful diverse backend
-            solutions. Optimize your brand, software and results.
+            I architect, design, and build rich user experiences connected to
+            modern frameworks and robust backend solutions. Optimizing your
+            brand, apps and software.
           </p>
           <p>
-            Specializing in full-stack solutions. Fluent in MERN and MAMP
-            stacks. Abilities and languages include: HTML, CSS, Javascript, PHP,
-            NodeJS, MySQL, Postgres, ORM, MVC, MongoDB, Google Cloud, Adobe
-            Creative Suite and Restful API's. Rich video and audio enhancement
-            with trackabilities. Mobile, desktop and software. Lets find the
-            right solution!
+            Experience with the following programming languages and
+            technologies. NodeJS and PHP on the server side. Front end tools
+            include HTML, CSS, Javascript and React. I have used MYSQL and
+            POSTGRES relational databases plus MongoDB and Firebase
+            non-relational DBs. Other tech include Restful API's, GraphQL, SEO,
+            and Adobe creative suite. Worked with startups, small business, and
+            enterprise corporation team
           </p>
-          <button className="btn-primary">Find Out More</button>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/david-cox-78b88b44/"
+              target="blank"
+            >
+              <button className="btn-primary">Linkdin Info Here</button>
+            </a>
+          </p>
         </article>
       </div>
     </section>

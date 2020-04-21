@@ -18,10 +18,10 @@ margin-bottom: 2rem;
 h4{
   text-align:center;
   letter-spacing: 7px:
-  color:red;
+ 
 }
 .title{
-  color:var(--primaryColor);
+  color:#ae0e15;
 }
 span{
   display:block;

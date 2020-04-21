@@ -10,7 +10,7 @@ export default [
   },
   {
     icon: <FaCog />,
-    title: "collaberative build",
+    title: "collaborative build",
     text:
       "We develop and build with the client every step of the way. Ensuring the app you really want delivered on time. ",
   },

@@ -17,8 +17,12 @@ export default ({ data }) => (
     />
     <StyledHero home="true" img={data.defaultImage.childImageSharp.fluid}>
       <Banner
-        title="Full-Stack with Style"
-        info="Build your audience with rich and interactive experiences. Combine programming, video and sound with accurate and eye catching dynamic displays to enhance engagement, improve performance and solve unique issues. Experienced full-stack web engineer. Coding to contribute, create, and progress."
+        title="Full stack with Style"
+        info="Welcome to Daventertainment. My name is David Cox. Full stack engineer by day and party yacht DJ at night.
+        I am a web based creator with enterprise level experience. Specializing in JAM, MERN, and MAMP stack solutions. 
+        My other passions are fatherhood, music composition, video production, and spinning tunes on a harbour cruise.
+        This site is a showcase of my latest work. Coding to contribute, create, and progress. DAV
+         "
       >
         <AniLink fade to="/portfolio" className="btn-white">
           View Portfolio
@@ -35,7 +39,7 @@ export const query = graphql`
     defaultImage: file(relativePath: { eq: "defaultBcg.jpeg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 2800) {
-          ...GatsbyImageSharpFluid_withWebp
+          ...GatsbyImageSharpFluid
         }
       }
     }

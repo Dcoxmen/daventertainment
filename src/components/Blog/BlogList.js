@@ -29,7 +29,7 @@ const BlogList = () => {
 
   return (
     <section className={styles.blog}>
-      <Title title="our" subtitle="blog list" />
+      <Title title="blog" subtitle="list" />
       <div className={styles.center}>
         {posts.edges.map(({ node }) => {
           return <BlogCard key={node.id} blog={node} />

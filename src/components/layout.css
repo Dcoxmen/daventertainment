@@ -32,10 +32,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
 }
+
 p {
   margin-bottom: 1.25rem;
 }
@@ -50,6 +51,7 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 .btn-white,
 .btn-primary {
   text-transform: uppercase;
