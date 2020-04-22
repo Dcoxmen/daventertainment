@@ -6,13 +6,13 @@ export default [
     icon: <FaEye />,
     title: "front end",
     text:
-      "Contemporary UX/UI design and quality front end development using HTML, CSS, and Javascript along with the latest frameworks like ReactJS and VueJS. ",
+      "Contemporary UX/UI design and front end development. Using HTML, CSS, and Javascript along with the latest frameworks like ReactJS and VueJS. ",
   },
   {
     icon: <FaCog />,
     title: "back end",
     text:
-      "Architecture and construction of API's, relational and non-relational databases specific to providing solutions. Tools include NodeJS, PHP, MySQL, POSTGRES, and Firebase.",
+      "Design and build API's, relational and non-relational databases specific to providing solutions. Tools include NodeJS, PHP, MySQL, POSTGRES, and Firebase.",
   },
   {
     icon: <FaGlobe />,
