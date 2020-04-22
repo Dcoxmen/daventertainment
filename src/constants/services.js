@@ -18,6 +18,6 @@ export default [
     icon: <FaGlobe />,
     title: "leadership qualities",
     text:
-      "Enjoy mentoring and teaching others the craft of programming. I currently apply this passion as a teaching assistant for UC Irvine full stack coding bootcamp.",
+      "Enjoy learning,mentoring, and teaching the craft of programming. I currently apply this passion as a teaching assistant for UC Irvine full stack coding bootcamp.",
   },
 ]
