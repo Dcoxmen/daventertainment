@@ -43,7 +43,7 @@ const About = () => {
           </p>
           <p>
             On the weekends I DJ for a large harbour cruise company in Newport
-            Beach, Ca. Addition passions are fatherhood, music composition,
+            Beach, Ca. Additional passions are fatherhood, music composition,
             video production, and spinning tunes on a yacht. I am fortunate to
             do what I love.
           </p>
