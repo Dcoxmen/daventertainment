@@ -31,7 +31,14 @@ const Navbar = () => {
           {links.map((item, index) => {
             return (
               <li key={index}>
-                <AniLink fade to={item.path}>
+                <AniLink
+                  cover
+                  direction="right"
+                  bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
+                      center / cover   /* position / size */
+                      no-repeat        /* repeat */"
+                  to={item.path}
+                >
                   {item.text}
                 </AniLink>
               </li>

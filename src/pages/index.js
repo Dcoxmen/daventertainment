@@ -23,7 +23,15 @@ export default ({ data }) => (
         This site is a showcase of my latest work and interests. Coding to contribute, create, and progress. DAV
          "
       >
-        <AniLink fade to="/portfolio" className="btn-white">
+        <AniLink
+          cover
+          direction="right"
+          bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
+            center / cover   /* position / size */
+            no-repeat        /* repeat */"
+          to="/portfolio"
+          className="btn-white"
+        >
           View Portfolio
         </AniLink>
       </Banner>

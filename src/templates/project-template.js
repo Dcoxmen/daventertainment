@@ -70,7 +70,15 @@ const Template = ({ data }) => {
               )
             })}
           </div>
-          <AniLink fade to="/portfolio" className="btn-primary">
+          <AniLink
+            cover
+            direction="right"
+            bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
+            center / cover   /* position / size */
+            no-repeat        /* repeat */"
+            to="/portfolio"
+            className="btn-primary"
+          >
             back to portfolio
           </AniLink>
         </div>

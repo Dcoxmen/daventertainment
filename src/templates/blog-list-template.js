@@ -20,7 +20,7 @@ const Blogs = props => {
 
   return (
     <Layout>
-      <SEO title="Blogs"/>
+      <SEO title="Blogs" />
       <section className={styles.blog}>
         <Title title="latest" subtitle="posts" />
         <div className={styles.center}>
@@ -30,7 +30,15 @@ const Blogs = props => {
         </div>
         <section className={styles.links}>
           {!isFirst && (
-            <AniLink fade to={prevPage} className={styles.link}>
+            <AniLink
+              cover
+              direction="right"
+              bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
+          center / cover   /* position / size */
+          no-repeat        /* repeat */"
+              to={prevPage}
+              className={styles.link}
+            >
               Prev
             </AniLink>
           )}
@@ -39,7 +47,11 @@ const Blogs = props => {
             return (
               <AniLink
                 key={i}
-                fade
+                cover
+                direction="right"
+                bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
+            center / cover   /* position / size */
+            no-repeat        /* repeat */"
                 to={`/blogs/${i === 0 ? "" : i + 1}`}
                 className={
                   i + 1 === currentPage

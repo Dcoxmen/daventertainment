@@ -16,7 +16,15 @@ const Project = ({ project }) => {
           className={styles.img}
           alt="single project display"
         />
-        <AniLink fade className={styles.link} to={`/portfolio/${slug}`}>
+        <AniLink
+          cover
+          direction="right"
+          bg="url(https://bhcmedia.com/HTML/images/arrow-techBlue.png)
+            center / cover   /* position / size */
+            no-repeat        /* repeat */"
+          className={styles.link}
+          to={`/portfolio/${slug}`}
+        >
           Details
         </AniLink>
       </div>
