@@ -1,14 +1,18 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
+  <a href="https://www.daventertainment.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  Daventertainment.co
 </h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Dave Cox portfolio project using Gatsby. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React. This single page application uses gatsby for a serverless site with a headless backend Content Management system from Contentful. This ensures no down time and accessability to displayed content for updating and adding content that can be assigned to an office admin.
+
+
+**Start developing.**
+
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
