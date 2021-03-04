@@ -13,6 +13,13 @@ Dave Cox portfolio project using Gatsby. This starter ships with the main Gatsby
 
 ![](static/daventertainment.png)
 
+## Technology:
+GatsbyJS
+ReactJS
+Contentful CMS
+Netlify (hosting)
+
+
 **Start developing.**
 
 
