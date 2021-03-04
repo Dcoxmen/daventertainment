@@ -11,6 +11,8 @@
 Dave Cox portfolio project using Gatsby. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React. This single page application uses gatsby for a serverless site with a headless backend Content Management system from Contentful. This ensures no down time and accessability to displayed content for updating and adding content that can be assigned to an office admin.
 
 
+![](static/daventertainment.png)
+
 **Start developing.**
 
 
